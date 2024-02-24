@@ -1,4 +1,4 @@
-module github.com/yourusername/my-telegram-bot
+module github.com/IST0VE/library
 
 go 1.22.0
 

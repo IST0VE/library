@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"github.com/yourusername/my-telegram-bot/config"
-	"github.com/yourusername/my-telegram-bot/internal/app"
-	"github.com/yourusername/my-telegram-bot/internal/repository"
+	"github.com/ist0ve/library/config"
+	"github.com/ist0ve/library/internal/app"
+	"github.com/ist0ve/library/internal/repository"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/IST0VE/library/config"
 	"github.com/IST0VE/library/internal/app"
-	"github.com/IST0VE/libraryinternal/repository"
+	"github.com/IST0VE/library/internal/repository"
 )
 
 func main() {

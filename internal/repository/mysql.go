@@ -2,10 +2,19 @@ package repository
 
 import (
 	"database/sql"
+
+	"github.com/IST0VE/library/config"
 )
 
 type Repository struct {
 	db *sql.DB
+}
+
+type Book struct {
+	ID            int
+	Title         string
+	Author        string
+	YearPublished int
 }
 
 func NewRepository(cfg *config.Config) (*Repository, error) {

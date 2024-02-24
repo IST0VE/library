@@ -4,8 +4,8 @@ import (
 	"log"
 	"strings"
 
+	"github.com/IST0VE/library/internal/repository"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
-	"github.com/ist0ve/library/internal/repository"
 )
 
 func StartBot(token string, repo *repository.Repository) {

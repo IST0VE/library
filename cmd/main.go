@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"github.com/ist0ve/library/config"
-	"github.com/ist0ve/library/internal/app"
-	"github.com/ist0ve/library/internal/repository"
+	"github.com/IST0VE/library/config"
+	"github.com/IST0VE/library/internal/app"
+	"github.com/IST0VE/libraryinternal/repository"
 )
 
 func main() {
